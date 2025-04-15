@@ -1,9 +1,11 @@
+import CountriesSuggestion from "./components/CountriesSuggestion";
 import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <div className="flex w-full justify-center">
+    <div className="flex flex-col justify-center  w-full">
       <Hero />
+      <CountriesSuggestion />
     </div>
   );
 }
