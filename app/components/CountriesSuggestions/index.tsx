@@ -6,7 +6,7 @@ import poland from "@/app/assets/countries/poland.jpg";
 
 const CountriesSuggestion = () => {
   return (
-    <div className="flex justify-center">
+    <div className="mx-auto w-full max-w-[1920px]">
       <div className="relative -top-32 mx-auto flex w-full max-w-2/3 flex-col items-center justify-center rounded-2xl bg-white/90 px-16 py-9 pb-14 shadow-xl">
         <div className="text-h2 mb-20">Explore Countries to go</div>
 
