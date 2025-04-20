@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
         <FancyTitle>Why Choose Us</FancyTitle>
         <div className="flex w-full justify-around px-14 py-12">
           {itemsList.map((i) => (
-            <div key={i.title}>
+            <div key={i.title} className="flex-1/3">
               <Item
                 {...i}
               />

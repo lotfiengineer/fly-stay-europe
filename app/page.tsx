@@ -1,7 +1,7 @@
 // import CountriesSuggestion from "./components/CountriesSuggestions";
 // import Hero from "./components/Hero";
 // import HowItWorks from "./components/HowItWorks";
-import WhyChooseUs from "./components/WhyChooseUs";
+import Reviews from "./components/Reviews";
 
 export default function Home() {
   return (
@@ -9,7 +9,8 @@ export default function Home() {
       {/* <Hero />
       <CountriesSuggestion />
       <HowItWorks /> */}
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
+      <Reviews />
     </div>
   );
 }
