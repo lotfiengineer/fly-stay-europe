@@ -2,22 +2,26 @@ import React from "react";
 import FancyTitle from "../common/FancyTitle";
 import Item from "./Item";
 
+import booking from "@/app/assets/booking.png";
+import best_prices from "@/app/assets/best_prices.png";
+import trust from "@/app/assets/trust.png";
+
 const WhyChooseUs = () => {
   const itemsList = [
     {
-      icon: "",
-      title: "",
-      caption: "",
+      icon: booking,
+      title: "Easy Booking",
+      caption: "Fast & secure reservations.",
     },
     {
-      icon: "",
-      title: "",
-      caption: "",
+      icon: best_prices,
+      title: "Best Prices",
+      caption: "Competitive deals on flights & stays.",
     },
     {
-      icon: "",
-      title: "",
-      caption: "",
+      icon: trust,
+      title: "Trusted By Travelers",
+      caption: "Safe & reliable service.",
     },
   ];
 
@@ -25,9 +29,13 @@ const WhyChooseUs = () => {
     <div className="mx-auto w-full max-w-[1920px] bg-[#00A11B]/15 py-12">
       <div className="flex flex-col items-center">
         <FancyTitle>Why Choose Us</FancyTitle>
-        <div className="flex w-full justify-between px-14 py-12">
+        <div className="flex w-full justify-around px-14 py-12">
           {itemsList.map((i) => (
-            <Item />
+            <div key={i.title}>
+              <Item
+                {...i}
+              />
+            </div>
           ))}
         </div>
       </div>
