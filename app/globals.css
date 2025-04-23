@@ -1,34 +1,34 @@
 @import "tailwindcss";
 
 @theme {
-    --color-mint-500: oklch(0.72 0.11 178);
+  --color-mint-500: oklch(0.72 0.11 178);
 
-    --color-primary-light: #4FEAB2;
-    --color-primary-normal: #00A86B;
-    --color-primary-dark: #056D48;
+  --color-primary-light: #4feab2;
+  --color-primary-normal: #00a86b;
+  --color-primary-dark: #056d48;
 
-    --color-secondary-light: #FF9F7D;
-    --color-secondary-normal: #FF6B35;
-    --color-secondary-dark: #E04108;
+  --color-secondary-light: #ff9f7d;
+  --color-secondary-normal: #ff6b35;
+  --color-secondary-dark: #e04108;
 
-    --color-neutral-light: #323232;
-    --color-neutral-normal: #1F1F1F;
-    --color-neutral-dark: #101010;
+  --color-neutral-light: #323232;
+  --color-neutral-normal: #1f1f1f;
+  --color-neutral-dark: #101010;
 
-    --color-white-light: #F8F8F8;
-    --color-white-normal: #E0E0E0;
-    --color-white-lightgreen: #B0D0C0;
+  --color-white-light: #f8f8f8;
+  --color-white-normal: #e0e0e0;
+  --color-white-lightgreen: #b0d0c0;
 
-    --text-h0: 4.5rem;
-    --text-h1: 3rem;
-    --text-h2: 2.25rem;
-    --text-h3: 1.5rem;
-    --text-h4: 1.25rem;
+  --text-h0: 4.5rem;
+  --text-h1: 3rem;
+  --text-h2: 2.25rem;
+  --text-h3: 1.5rem;
+  --text-h4: 1.25rem;
 
-    --shadow-container: 0 0 6px 4px rgba(0, 0, 0, 0.25);
+  --shadow-container: 0 0 6px 4px rgba(0, 0, 0, 0.25);
+  --shadow-testimonial: 0 4px 4px 4px rgba(0, 168, 107, 0.25);
 
-
-    --text-paragraph-large: 1.125rem;
-    --text-paragraph-medium: 1rem;
-    --text-paragraph-small: 0.875rem;
+  --text-paragraph-large: 1.125rem;
+  --text-paragraph-medium: 1rem;
+  --text-paragraph-small: 0.875rem;
 }
