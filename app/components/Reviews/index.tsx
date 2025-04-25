@@ -39,7 +39,7 @@ const Reviews = () => {
   return (
     <div className="mx-auto w-full max-w-[1920px]">
       <div className="flex flex-col items-center px-6">
-        <FancyTitle>Why Choose Us</FancyTitle>
+        <FancyTitle>Reviews</FancyTitle>
         <div className="mb-9 flex w-full flex-col justify-between">
           <div className="flex items-center justify-between">
             <div className="text-h2 font-bold">
@@ -50,9 +50,9 @@ const Reviews = () => {
             </button>
           </div>
         </div>
-        <div className="flex w-full justify-between gap-20">
+        <div className="flex w-full justify-between gap-10 max-[1200px]:flex-wrap max-[1200px]:justify-between max-[1190px]:justify-center">
           {testimonialList.map((i) => (
-            <div key={i.id} className="flex-1/3">
+            <div key={i.id} className="max-w-[520px] min-w-[350px]">
               <Testimonial {...i} />
             </div>
           ))}
