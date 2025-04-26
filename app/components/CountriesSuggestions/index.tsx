@@ -13,11 +13,11 @@ const CountriesSuggestion = () => {
         <div className="mb-14 flex w-full justify-between">
           <Country imageSrc={spain} countryName={"Spain"} />
           <Country imageSrc={france} countryName={"France"} />
-          <Country imageSrc={england} countryName={"Poland"} />
+          <Country imageSrc={england} countryName={"England"} />
         </div>
 
         <div className="flex w-full justify-around">
-          <Country imageSrc={poland} countryName={"England"} />
+          <Country imageSrc={poland} countryName={"Poland"} />
           <div className="text-h3 flex h-[160px] w-[185px] items-center justify-center rounded-2xl bg-[#3D3D3D] font-bold text-white">
             Explore More
           </div>
