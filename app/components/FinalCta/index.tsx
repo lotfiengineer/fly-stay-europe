@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FinalCta = () => {
   return (
-    <div className="relative mx-auto flex h-[520px] w-full max-w-[1920px] justify-center px-10 max-[695px]:h-[670px]">
+    <div className="relative mx-auto mb-36 flex h-[520px] w-full max-w-[1920px] justify-center px-10 max-[695px]:h-[670px]">
       <div className="h-full rounded-2xl bg-black">
         <Image
           src={venice}

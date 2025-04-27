@@ -37,7 +37,7 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="mx-auto w-full max-w-[1920px]">
+    <div className="mx-auto w-full max-w-[1920px] mb-36">
       <div className="flex flex-col items-center px-6">
         <FancyTitle>Reviews</FancyTitle>
         <div className="mb-9 flex w-full flex-col justify-between">

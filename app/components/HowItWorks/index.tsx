@@ -4,7 +4,7 @@ import ProcessStep from "./ProcessStep";
 
 const HowItWorks = () => {
   return (
-    <div className="flex flex-col items-center p-10">
+    <div className="flex flex-col items-center p-10 mb-28">
       <FancyTitle>How it works?</FancyTitle>
 
       <ProcessStep />

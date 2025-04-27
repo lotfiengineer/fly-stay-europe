@@ -2,9 +2,12 @@ import React from "react";
 import Logo from "@/app/assets/logo.png";
 import Image from "next/image";
 
+import menu from "@/app/assets/menu.png";
+import person from "@/app/assets/person.png";
+
 const Navigation = () => {
   return (
-    <div className="absolute px-9 py-4 w-full z-10 flex justify-between items-center">
+    <div className="absolute z-10 flex w-full items-center justify-between px-9 py-4">
       <Image
         src={Logo}
         style={{
@@ -14,9 +17,13 @@ const Navigation = () => {
       />
 
       {/* todo: Add the shadow */}
-      <div className="bg-white rounded-[40px] flex gap-6 py-4 px-7 items-center cursor-pointer ">
-        <div>Profile</div>
-        <div>Menu</div>
+      <div className="flex cursor-pointer items-center gap-4 rounded-[40px] bg-white px-5 py-4 ">
+        <div>
+          <Image src={menu} alt="menu" width={"40"} />
+        </div>
+        <div>
+          <Image src={person} alt="person" width={"40"} />
+        </div>
       </div>
     </div>
   );

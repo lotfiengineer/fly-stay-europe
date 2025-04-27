@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <div className="mx-auto w-full max-w-[1920px] bg-[#00A11B]/15 py-12">
+    <div className="mx-auto w-full max-w-[1920px] bg-[#00A11B]/15 py-14 pt-20 mb-36">
       <div className="flex flex-col items-center">
         <FancyTitle>Why Choose Us</FancyTitle>
         <div className="flex w-full justify-around px-14 py-12">
