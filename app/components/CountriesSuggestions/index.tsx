@@ -7,16 +7,16 @@ import poland from "@/app/assets/countries/poland.jpg";
 const CountriesSuggestion = () => {
   return (
     <div className="mx-auto w-full max-w-[1920px]">
-      <div className="relative -top-32 mx-auto flex w-full max-w-2/3 flex-col items-center justify-center rounded-2xl bg-white/90 px-16 py-9 pb-14 shadow-xl">
-        <div className="text-h2 mb-20">Explore Countries to go</div>
+      <div className="relative -top-32 mx-auto flex w-full max-w-2/3 flex-col items-center justify-center rounded-2xl bg-white/90 px-16 py-9 pb-14 shadow-xl max-[1000px]:max-w-5/6 max-[450px]:px-8 max-[435px]:-top-44">
+        <div className="text-h2 mb-20 text-center">Explore Countries to go</div>
 
-        <div className="mb-14 flex w-full justify-between">
+        <div className="mb-14 flex w-full flex-wrap justify-between gap-6 max-[1112px]:justify-center max-[1112px]:gap-14">
           <Country imageSrc={spain} countryName={"Spain"} />
           <Country imageSrc={france} countryName={"France"} />
           <Country imageSrc={england} countryName={"England"} />
         </div>
 
-        <div className="flex w-full justify-around">
+        <div className="flex w-full flex-wrap justify-evenly gap-7 max-[1000px]:gap-14">
           <Country imageSrc={poland} countryName={"Poland"} />
           <div className="text-h3 flex h-[160px] w-[185px] items-center justify-center rounded-2xl bg-[#3D3D3D] font-bold text-white">
             Explore More

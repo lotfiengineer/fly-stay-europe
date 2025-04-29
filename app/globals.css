@@ -20,10 +20,15 @@
   --color-white-lightgreen: #b0d0c0;
 
   --text-h0: 4.5rem;
+  --text-h0--font-weight: 700;
   --text-h1: 3rem;
+  --text-h1--font-weight: 700;
   --text-h2: 2.25rem;
+  --text-h2--font-weight: 700;
   --text-h3: 1.5rem;
+  --text-h3--font-weight: 700;
   --text-h4: 1.25rem;
+  --text-h4--font-weight: 700;
 
   --shadow-container: 0 0 6px 4px rgba(0, 0, 0, 0.25);
   --shadow-testimonial: 0 4px 4px 4px rgba(0, 168, 107, 0.25);
@@ -31,4 +36,10 @@
   --text-paragraph-large: 1.125rem;
   --text-paragraph-medium: 1rem;
   --text-paragraph-small: 0.875rem;
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }
 }

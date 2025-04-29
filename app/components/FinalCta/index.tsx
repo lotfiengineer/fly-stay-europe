@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FinalCta = () => {
   return (
-    <div className="relative mx-auto mb-36 flex h-[520px] w-full max-w-[1920px] justify-center px-10 max-[695px]:h-[670px]">
+    <div className="relative mx-auto mb-36 flex h-[520px] w-full max-w-[1920px] justify-center px-10 max-[695px]:h-[780px]">
       <div className="h-full rounded-2xl bg-black">
         <Image
           src={venice}
@@ -21,7 +21,7 @@ const FinalCta = () => {
           today!
         </div>
         <div className="px-4">
-          <button className="bg-primary-normal text-h3 rounded-2xl px-16 py-3 font-bold text-white">
+          <button className="bg-primary-normal text-h3 rounded-2xl px-12 py-3 font-bold text-white">
             Start Your Journey
           </button>
         </div>

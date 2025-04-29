@@ -9,7 +9,7 @@ interface Props {
 
 const Item = ({ icon, title, caption }: Props) => {
   return (
-    <div className="flex flex-col items-center gap-9">
+    <div className="flex min-w-[350px] flex-col items-center gap-5 max-[500px]:min-w-[255px]">
       <Image
         src={icon}
         style={{
@@ -17,8 +17,8 @@ const Item = ({ icon, title, caption }: Props) => {
         }}
         alt={title}
       />
-      <div className="text-h2 font-bold">{title}</div>
-      <div className="text-paragraph-large">{caption}</div>
+      <div className="text-h2 text-center font-bold">{title}</div>
+      <div className="text-paragraph-large text-center">{caption}</div>
     </div>
   );
 };
