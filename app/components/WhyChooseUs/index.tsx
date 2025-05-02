@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
     <div className="mx-auto mb-36 w-full max-w-[1920px] bg-[#00A11B]/15 py-14 pt-20">
       <div className="flex flex-col items-center">
         <FancyTitle>Why Choose Us</FancyTitle>
-        <div className="flex w-full flex-wrap justify-around px-14 py-12 max-[1200px]:gap-12 max-[500px]:px-3">
+        <div className="flex w-full flex-wrap justify-around px-14 py-12 max-[1200px]:gap-16 max-[500px]:px-3">
           {itemsList.map((i) => (
             <div key={i.title} className="flex-1/3">
               <Item {...i} />

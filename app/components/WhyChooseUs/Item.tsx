@@ -9,7 +9,7 @@ interface Props {
 
 const Item = ({ icon, title, caption }: Props) => {
   return (
-    <div className="flex min-w-[350px] flex-col items-center gap-5 max-[500px]:min-w-[255px]">
+    <div className="flex min-w-[350px] flex-col items-center gap-4 max-[500px]:min-w-[225px]">
       <Image
         src={icon}
         style={{

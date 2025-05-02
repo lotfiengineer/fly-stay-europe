@@ -37,22 +37,25 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="mx-auto w-full max-w-[1920px] mb-36">
+    <div className="mx-auto mb-36 w-full max-w-[1920px]">
       <div className="flex flex-col items-center px-6">
         <FancyTitle>Reviews</FancyTitle>
         <div className="mb-9 flex w-full flex-col justify-between">
-          <div className="flex items-center justify-between">
-            <div className="text-h2 font-bold">
+          <div className="flex items-center justify-between max-[550px]:flex-col max-[550px]:gap-6">
+            <div className="text-h2 max-[820px]:text-h3 font-bold max-[550px]:text-center">
               What people say about FlyStayEurope
             </div>
-            <button className="border-secondary-dark rounded-2xl border-[1px] p-2.5 text-2xl">
+            <button className="border-secondary-dark w-[100px] rounded-2xl border-[1px] p-2.5 text-2xl">
               See All
             </button>
           </div>
         </div>
         <div className="flex w-full justify-between gap-10 max-[1200px]:flex-wrap max-[1200px]:justify-between max-[1190px]:justify-center">
           {testimonialList.map((i) => (
-            <div key={i.id} className="max-w-[520px] min-w-[350px]">
+            <div
+              key={i.id}
+              className="max-w-[520px] min-w-[350px] max-[430px]:min-w-[210px]"
+            >
               <Testimonial {...i} />
             </div>
           ))}

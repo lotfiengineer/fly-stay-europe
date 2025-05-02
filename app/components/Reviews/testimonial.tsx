@@ -11,7 +11,7 @@ interface Props {
 
 const Testimonial = ({ person, rating, place, review, image }: Props) => {
   return (
-    <div className="shadow-testimonial rounded-2xl px-7 pt-6 pb-4">
+    <div className="shadow-testimonial rounded-2xl px-7 pt-6 pb-4 max-[430px]:px-4 max-[430px]:pt-3 max-[430px]:pb-3 ">
       <div className="mb-4 flex text-4xl">
         <div>{person}</div>
       </div>
@@ -22,7 +22,11 @@ const Testimonial = ({ person, rating, place, review, image }: Props) => {
         </div>
       </div>
       <div className="mb-5 text-xl text-[#515151]">{review}</div>
-      <Image src={image} alt={place} className="h-80 rounded-lg object-cover" />
+      <Image
+        src={image}
+        alt={place}
+        className="h-80 rounded-lg object-cover max-[430px]:h-72"
+      />
     </div>
   );
 };
